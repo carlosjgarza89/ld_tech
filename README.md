@@ -36,9 +36,13 @@ A summary of the data columns is shown below.
 - A tiny percentage of the raw data was missing values in the ```Placement``` or ```Ad.Slot.Page.Layout``` columns. The rows with missing data were dropped from the analysis.
 #### Check for Outliers
 -Scatterplots of ```net-revenue``` vs ```Creative.ID```, ```Slot.ID```, and ```Device``` were used to visually inspect the data for outliers. No data points were obvious outliers so for the purpose of this analysis no data was dropped at this stage. The scatterplots can be viewed below.
+
+
 ![creative_scatter](images/creative_scatter.png)
 ![slot_scatter](images/slot_scatter.png)
 ![device_scatter](images/device_scatter.png)
+
+
 #### Pivot Tables
 - To make insights possible to the human eye, data was aggregated into pivot tables.
 - The table displayed below shows the sum of all Net Revenue aggregated by device for each Creative ID.
